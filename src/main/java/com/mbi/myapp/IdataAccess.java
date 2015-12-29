@@ -1,5 +1,7 @@
 package com.mbi.myapp;
 
-public interface IdataAccess {
+import java.util.List;
 
+public interface IdataAccess {
+	public List<Customer> getCustomers();
 }
